@@ -1,6 +1,6 @@
-const inquirer = require('inquirer')
-const fs = require ('fs')
-// TODO : create shapes in shapes.js and link to here
+const inquirer = require('inquirer');
+const fs = require('fs');
+const { Circle, Square, Triangle } = require('./shapes');
 
 const svgPrompts = [
     {
