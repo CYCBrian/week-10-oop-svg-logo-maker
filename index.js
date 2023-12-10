@@ -37,16 +37,16 @@ function createSvgFile(filename, data) {
     }  
     shape.setColor(data.shapeColor);
   
-    const svgString = `<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    const svgString = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
         ${shape.render()}
-        <text x="150" y="150" font-size="100" text-anchor="middle" dominant-baseline="middle" fill="${data.textColor}">${data.textInput}</text>
+        <text x="150" y="100" font-size="80" text-anchor="middle" dominant-baseline="middle" fill="${data.textColor}">${data.textInput}</text>
     </svg>`;
   
     fs.writeFile(filename, svgString, (err) => {
         if (err) {
             console.error(err);
         } else {
-            console.log("Successfully generated logo!");
+            console.log("Generated logo.svg");
         }
     });
   }
