@@ -36,6 +36,7 @@
   1. Start the application by running node index.js.
   2. Follow the prompts to provide information on the logo you wish to create.
   3. Once all information is provided, a logo.svg will be generated.
+     
   [Link to demo.](https://drive.google.com/file/d/1lh7F3CW8Ztby1KGHgt-07M99Ilbj1V4U/view)
 
   ## Contributing
