@@ -56,8 +56,6 @@
   ## Questions?
   [Visit my GitHub Profile here!](https://github.com/CYCBrian)
 
-  [Send me a email!](mailto:briancheungchakyin@gmail.com)
-
   ## License
   The project is covered under this license:
     [MIT](https://choosealicense.com/licenses/mit)
